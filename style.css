@@ -1,0 +1,131 @@
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.title {
+    color: #2a6fcb;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.para {
+    font-size: 18px;
+    text-align: justify;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+button {
+    display: block;
+    margin: 0 auto 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2a6fcb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1b436e;
+}
+
+.message {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 24px;
+}
+
+
+.card {
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.card ul {
+    padding-left: 0;
+    list-style-position: inside;
+    line-height: 1.8;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 400px;
+}
+
+.card ul {
+    list-style-position: inside;
+    line-height: 1.8;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 400px;
+    padding-left: 0;
+}
+
+.image {
+    display: block;
+    margin: 5px auto 10px auto;
+    width: 300px;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: #1b436e solid 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img_japa,
+.img_ita,
+.img_ca {
+    width: 200px;
+    border: #080808 solid 1px;
+    border-radius: 8px;
+}
+
+
+table {
+    width: 80%;
+    margin: 0 auto 40px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #2a6fcb;
+    color: white;
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #e9f0fb;
+}
+
+.link {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #2a6fcb;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.link:hover {
+    color: #e91414;
+}
